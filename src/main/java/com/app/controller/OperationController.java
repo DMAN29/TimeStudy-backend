@@ -17,7 +17,7 @@ import com.app.service.OperationService;
 import com.app.service.ExcelExportService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173,https://time-study.vercel.app/")
+@CrossOrigin(origins = {"http://localhost:5174","https://time-study.vercel.app/"})
 public class OperationController {
 
     @Autowired
