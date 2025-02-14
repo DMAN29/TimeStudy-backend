@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
 @RequestMapping("/allowance")
-@CrossOrigin(origins = {"http://localhost:5174","https://time-study.vercel.app/"})
+@CrossOrigin(origins = {"http://localhost:5174","https://time-study.vercel.app"})
 public class AllowanceController {
 
 	@Autowired
